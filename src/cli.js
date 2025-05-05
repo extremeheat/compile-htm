@@ -14,7 +14,7 @@ const args = require('basic-args')({
   ],
   examples: [
     'compile-htm <inputFile> [--builder functionName] [--output fileName]',
-    'compile-htm input.js\tCompile input.js into input.compiled.js'
+    'compile-htm input.js                        # Compile input.js into input.compiled.js'
   ]
 })
 const inputFile = args.inputFile

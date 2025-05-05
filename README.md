@@ -34,7 +34,7 @@ Options:
 
 Usage:
   compile-htm <inputFile> [--builder functionName] [--output fileName]
-  compile-htm input.js  Compile input.js into input.compiled.js
+  compile-htm input.js                        # Compile input.js into input.compiled.js
 ```
 
 ## Example
