@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/extremeheat/compile-htm#readme",
   "devDependencies": {
-    "mocha": "^10.0.0",
+    "mocha": "^11.2.2",
     "compile-htm": "file:.",
     "standard": "^17.0.0"
   },
