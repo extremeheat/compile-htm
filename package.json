@@ -1,8 +1,11 @@
 {
-  "name": "prismarine-template",
+  "name": "compile-htm",
   "version": "1.0.0",
-  "description": "A template repository to make it easy to create new prismarine repo",
+  "description": "CLI tool to compile htm template literals into standard JavaScript builder functions for use with React, Preact, or other libraries.",
   "main": "src/index.js",
+  "bin": {
+    "compile-htm": "src/cli.js"
+  },
   "scripts": {
     "test": "mocha --reporter spec --exit",
     "pretest": "npm run lint",
@@ -11,18 +14,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/extremeheat/prismarine-template.git"
+    "url": "git+https://github.com/extremeheat/compile-htm.git"
   },
   "keywords": [],
   "author": "extremeheat",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/extremeheat/prismarine-template/issues"
+    "url": "https://github.com/extremeheat/compile-htm/issues"
   },
-  "homepage": "https://github.com/extremeheat/prismarine-template#readme",
+  "homepage": "https://github.com/extremeheat/compile-htm#readme",
   "devDependencies": {
-    "prismarine-template": "file:.",
-    "standard": "^17.0.0",
-    "mocha": "^10.0.0"
+    "mocha": "^10.0.0",
+    "compile-htm": "file:.",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.27.1",
+    "babel-plugin-htm": "^3.0.0",
+    "basic-args": "^1.5.0"
   }
 }
